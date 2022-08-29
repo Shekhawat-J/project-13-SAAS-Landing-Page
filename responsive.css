@@ -1,0 +1,76 @@
+@media only screen and (max-width: 800px){
+
+    /* navigation bar */
+    .nav{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .nav_items{
+        display: none;
+    }
+
+    .logo{
+        flex: content;
+    }
+    .nav_button{
+        flex: content;
+        justify-content: right;
+    }
+
+    /* hero section 1 */
+    .section-1{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    /* left side hero section 1 */
+    .section-1-left-side{
+        width: fit-content;
+    }
+    .section-1-left-side h1{
+        font-size: 3rem;
+    }
+
+    /* right side hero section 1 */
+    .section-1-right-side{
+        width:80%;
+    }
+
+    /* hero section 2 */
+    .section-2{
+        flex-direction: column;
+    }
+
+    /* left side of hero section 2 */
+    .section-2-left-side{
+        width: 80%;
+    }
+
+    /* right side of hero section 2 */
+    .section-2-right-side{
+        width: fit-content;
+    }
+
+
+    /* hero section 3 */
+
+    /* hero section 3 heading */
+    .section-3-heading>h1{
+        font-size: 2rem;
+    }
+
+    /* cards of hero section 3 */
+    .cards{
+        flex-direction: column;
+
+    }
+    .card{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .img-circle>img{
+        padding: 2rem;
+    }
+}

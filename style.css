@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header sectoin */
+.header{
+    background-color: #7564CC;
+}
+
+
+/* navigation bar  */
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1rem;
+    padding-left: 5rem;
+    padding-right: 1rem;
+}
+
+.logo{
+    display: flex;
+    flex: 20%;
+}
+
+
+.nav_items{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex: 60%;
+}
+
+.nav_item{
+    color: #ffffff;
+    margin-right: 3rem;
+    font-size: 1.25rem;
+}
+
+.nav_item:hover{
+    color: #1BBCEF;
+    border-bottom: #1BBCEF 2px solid;
+}
+
+.nav_button{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex: 20%;
+    
+}
+.nav_button button{
+    background-color: #1BBCEF;
+    color: #ffffff;
+    border: none;
+    padding: 0.75rem 1.50rem;
+}
+
+
+/* hero section 1 */
+
+.section-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+/* left side of section-1 */
+.section-1-left-side{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.section-1-left-side h1{
+    color: #ffffff;
+    font-size: 5rem;
+    align-items: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.section-1-left-side p{
+    color: #ffffff;
+    font-size: 1rem;
+    align-items: center;
+    font-weight: 200;
+    margin-bottom: 1rem;
+}
+
+/* right side of section-1 */
+.section-1-right-side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+
+/* hero section 2 */
+.section-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+/* left side section 2 */
+.section-2-left-side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+
+/* right side section 2 */
+.section-2-right-side{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 30%;
+    padding: 2rem;
+
+}
+
+.section-2-right-side>h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section-2-right-side-box{
+    margin-right: 1rem;
+    margin-top: 1rem;
+    
+}
+
+.section-2-right-side-box>h1{
+    font-size: 1rem;
+    font-weight: 600;
+    align-items: center;
+}
+
+/* .section-2-right-side-box h1::before{
+    content: "\f064";
+    color: yellow;
+} */
+
+.section-2-right-side-box>p{
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+/* hero section 3 */
+
+/* hero section 3 heading */
+.section-3-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section-3-heading>h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+/* hero seciton 3 cards */
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 5px 5px #808080;
+    border-radius: 20px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.card-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+.img-circle{
+    margin-top: 1rem;
+    margin-bottom: 0.50rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FAEAEB;
+    border-radius: 50%;
+    
+}
+/* .card:hover .img-circle{
+    border: #FAEAEB 3px dashed;
+} */
+
+.img-circle>img{
+    padding: 1.25rem;
+}
+
+
+.card-bottom{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.card-bottom>h1{
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 0.50rem;
+    margin-bottom: 0.50rem;
+}
+
+.card-bottom>p{
+    font-size: 1rem;
+    text-align: center;
+    padding-left: 0.50rem;
+    padding-right: 0.50rem;
+    padding-bottom: 1rem;
+}
+
+.card:hover .card-bottom{
+    background-color:#7564CC;
+    transition-duration: 500ms;
+    border-radius: 20px;
+    
+}
